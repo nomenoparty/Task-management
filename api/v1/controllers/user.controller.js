@@ -221,7 +221,6 @@ module.exports.resetPassword = async (req, res) => {
 //[GET] /api/v1/users/detail
 module.exports.detail = async (req, res) => {
   try {
-
     res.json({
       code: 200,
       message: "Thành công",
